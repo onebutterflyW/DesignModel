@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60973228187AA36A00590EE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60973227187AA36A00590EE8 /* Foundation.framework */; };
+		6097322B187AA36A00590EE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6097322A187AA36A00590EE8 /* main.m */; };
+		60973237187AA39200590EE8 /* Transportation.m in Sources */ = {isa = PBXBuildFile; fileRef = 60973236187AA39200590EE8 /* Transportation.m */; };
+		6097323A187AA3FA00590EE8 /* Hotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 60973239187AA3FA00590EE8 /* Hotel.m */; };
+		6097323D187AA41700590EE8 /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 6097323C187AA41700590EE8 /* Restaurant.m */; };
+		60973240187AA44800590EE8 /* Attractions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6097323F187AA44800590EE8 /* Attractions.m */; };
+		60973243187AA4F100590EE8 /* Facade.m in Sources */ = {isa = PBXBuildFile; fileRef = 60973242187AA4F100590EE8 /* Facade.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		60973222187AA36A00590EE8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		32282C441E89074F0042D678 /* FacadePattern（外观）.pages */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FacadePattern（外观）.pages"; sourceTree = "<group>"; };
+		60973224187AA36A00590EE8 /* FacadePattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FacadePattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		60973227187AA36A00590EE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6097322A187AA36A00590EE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6097322D187AA36A00590EE8 /* FacadePattern-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FacadePattern-Prefix.pch"; sourceTree = "<group>"; };
+		60973235187AA39200590EE8 /* Transportation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transportation.h; sourceTree = "<group>"; };
+		60973236187AA39200590EE8 /* Transportation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transportation.m; sourceTree = "<group>"; };
+		60973238187AA3FA00590EE8 /* Hotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hotel.h; sourceTree = "<group>"; };
+		60973239187AA3FA00590EE8 /* Hotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hotel.m; sourceTree = "<group>"; };
+		6097323B187AA41700590EE8 /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
+		6097323C187AA41700590EE8 /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
+		6097323E187AA44800590EE8 /* Attractions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attractions.h; sourceTree = "<group>"; };
+		6097323F187AA44800590EE8 /* Attractions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Attractions.m; sourceTree = "<group>"; };
+		60973241187AA4F100590EE8 /* Facade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facade.h; sourceTree = "<group>"; };
+		60973242187AA4F100590EE8 /* Facade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facade.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60973221187AA36A00590EE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60973228187AA36A00590EE8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6097321B187AA36A00590EE8 = {
+			isa = PBXGroup;
+			children = (
+				60973229187AA36A00590EE8 /* FacadePattern */,
+				60973226187AA36A00590EE8 /* Frameworks */,
+				60973225187AA36A00590EE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60973225187AA36A00590EE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60973224187AA36A00590EE8 /* FacadePattern */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60973226187AA36A00590EE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60973227187AA36A00590EE8 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60973229187AA36A00590EE8 /* FacadePattern */ = {
+			isa = PBXGroup;
+			children = (
+				6097322A187AA36A00590EE8 /* main.m */,
+				32282C441E89074F0042D678 /* FacadePattern（外观）.pages */,
+				60973235187AA39200590EE8 /* Transportation.h */,
+				60973236187AA39200590EE8 /* Transportation.m */,
+				60973238187AA3FA00590EE8 /* Hotel.h */,
+				60973239187AA3FA00590EE8 /* Hotel.m */,
+				6097323B187AA41700590EE8 /* Restaurant.h */,
+				6097323C187AA41700590EE8 /* Restaurant.m */,
+				6097323E187AA44800590EE8 /* Attractions.h */,
+				6097323F187AA44800590EE8 /* Attractions.m */,
+				60973241187AA4F100590EE8 /* Facade.h */,
+				60973242187AA4F100590EE8 /* Facade.m */,
+				6097322C187AA36A00590EE8 /* Supporting Files */,
+			);
+			path = FacadePattern;
+			sourceTree = "<group>";
+		};
+		6097322C187AA36A00590EE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6097322D187AA36A00590EE8 /* FacadePattern-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60973223187AA36A00590EE8 /* FacadePattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60973232187AA36A00590EE8 /* Build configuration list for PBXNativeTarget "FacadePattern" */;
+			buildPhases = (
+				60973220187AA36A00590EE8 /* Sources */,
+				60973221187AA36A00590EE8 /* Frameworks */,
+				60973222187AA36A00590EE8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacadePattern;
+			productName = FacadePattern;
+			productReference = 60973224187AA36A00590EE8 /* FacadePattern */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6097321C187AA36A00590EE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = yonyou;
+			};
+			buildConfigurationList = 6097321F187AA36A00590EE8 /* Build configuration list for PBXProject "FacadePattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6097321B187AA36A00590EE8;
+			productRefGroup = 60973225187AA36A00590EE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60973223187AA36A00590EE8 /* FacadePattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60973220187AA36A00590EE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6097322B187AA36A00590EE8 /* main.m in Sources */,
+				60973237187AA39200590EE8 /* Transportation.m in Sources */,
+				6097323A187AA3FA00590EE8 /* Hotel.m in Sources */,
+				6097323D187AA41700590EE8 /* Restaurant.m in Sources */,
+				60973240187AA44800590EE8 /* Attractions.m in Sources */,
+				60973243187AA4F100590EE8 /* Facade.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		60973230187AA36A00590EE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		60973231187AA36A00590EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		60973233187AA36A00590EE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FacadePattern/FacadePattern-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60973234187AA36A00590EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FacadePattern/FacadePattern-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6097321F187AA36A00590EE8 /* Build configuration list for PBXProject "FacadePattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60973230187AA36A00590EE8 /* Debug */,
+				60973231187AA36A00590EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60973232187AA36A00590EE8 /* Build configuration list for PBXNativeTarget "FacadePattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60973233187AA36A00590EE8 /* Debug */,
+				60973234187AA36A00590EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6097321C187AA36A00590EE8 /* Project object */;
+}
