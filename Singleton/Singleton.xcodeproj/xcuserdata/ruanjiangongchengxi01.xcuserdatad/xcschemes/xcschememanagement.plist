@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>FacadePattern.xcscheme</key>
+		<key>Singleton.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>60973223187AA36A00590EE8</key>
+		<key>602BD8BB184DA91500BA6F5D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
