@@ -10,7 +10,7 @@
 #import "Adaptee.h"
 #import "Target.h"
 
-// 适配对象
+// 对象适配
 @interface Adapter : NSObject<Target>
 {
     Adaptee         *_adaptee;
