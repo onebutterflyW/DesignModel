@@ -26,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3274B37A1E8C83EE0080D597 /* 适配器模式.pages */ = {isa = PBXFileReference; lastKnownFileType = file; path = "适配器模式.pages"; sourceTree = "<group>"; };
 		60FF326C18617A8D00E930E2 /* Adapter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Adapter; sourceTree = BUILT_PRODUCTS_DIR; };
 		60FF326F18617A8D00E930E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		60FF327218617A8D00E930E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -78,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				60FF327218617A8D00E930E2 /* main.m */,
+				3274B37A1E8C83EE0080D597 /* 适配器模式.pages */,
 				60FF327418617A8D00E930E2 /* Supporting Files */,
 				60FF327D18617A9D00E930E2 /* Target.h */,
 				60FF327E18617ABA00E930E2 /* Adapter.h */,
