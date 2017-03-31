@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ClassAdapter' target in the 'ClassAdapter' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
